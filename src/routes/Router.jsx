@@ -1,9 +1,9 @@
 // src/routes/Router.jsx
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/Home/Home";
-import About from "../pages/About/About";
-import Logement from "../pages/Logement/Logement";
-import Error404 from "../pages/Error/Error404";
+import Home from "../pages/home/Home";
+import About from "../pages/about/About";
+import Logement from "../pages/logement/Logement";
+import Error404 from "../pages/error404/Error404";
 
 function Router() {
   return (
