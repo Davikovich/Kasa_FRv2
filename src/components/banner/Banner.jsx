@@ -9,11 +9,8 @@ export default function Banner() {
 	const location = useLocation();
 	
 	useEffect(() => {
-		if(location.pathname === '/about'){
-			setAboutPage(true)
-		};
-		// eslint-disable-next-line
-	}, [])
+  setAboutPage(location.pathname === '/about');
+}, [location.pathname]);
 
 	return (
 		<section className={aboutPage ? 'banner_about' : 'banner'}>
