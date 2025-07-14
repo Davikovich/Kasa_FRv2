@@ -1,8 +1,8 @@
-import './Home.scss'
+import './home.scss'
 import Header from '../../components/header/Header'
-import Banner from '../../components/Banner/Banner'
-import Gallery from '../../components/Gallery/Gallery'
-import Footer from '../../components/Footer/Footer'
+import Banner from '../../components/banner/Banner'
+import Gallery from '../../components/gallery/Gallery'
+import Footer from '../../components/footer/Footer'
 
 export default function Home() {
 	return (
