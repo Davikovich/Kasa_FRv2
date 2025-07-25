@@ -1,3 +1,4 @@
+// 💡 Mixin réutilisable pour gérer facilement un container flexbox
 @mixin flex($direction: row, $justify: center, $align: center) {
   display: flex;
   flex-direction: $direction;

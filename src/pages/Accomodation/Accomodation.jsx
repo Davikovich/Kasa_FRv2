@@ -13,21 +13,22 @@ import Rating from '../../components/Rating/Rating';
 
 export default function Accomodation() {
 
-	const [imageSlider, setImageSlider] = useState([]);
+	const [imageSlider, setImageSlider] = useState([]); // images pour le carousel
 
-	const { id } = useParams();
+	const { id } = useParams(); // récupère l'id dans l'URL
+	// Cherche le logement correspondant à l'id
 	const dataCurrentAccomodation = datas.find(data => data.id === id);
-
+	// Si trouvé, met à jour les images pour le carousel
 	useEffect(() => {
 		if (dataCurrentAccomodation) {
 			setImageSlider(dataCurrentAccomodation.pictures);
 		}
 	}, [id, dataCurrentAccomodation]);
-
+	// Si aucun logement trouvé → page 404
 	if (!dataCurrentAccomodation) {
 		return <NotFound />;
 	}
-
+	// Extraction de certaines données pour affichage plus clair
 	const name = dataCurrentAccomodation.host.name.split(' ');
 	const rating = dataCurrentAccomodation.rating;
 	const description = dataCurrentAccomodation.description;
@@ -36,7 +37,7 @@ export default function Accomodation() {
 	return (
 		<div className='accomodation_wrapper'>
 			<Header />
-			<Slider imageSlider={imageSlider} />
+			<Slider imageSlider={imageSlider} /> {/* Carousel avec les photos */}
 			<main className="accomodation">
 				<div className="accomodation_content">
 					<div className="accomodation_content_infos">

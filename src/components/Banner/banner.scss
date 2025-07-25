@@ -3,7 +3,7 @@
 .banner,
 .banner_about {
     position: relative;
-    @include flex;
+    @include flex; // Centre le contenu
     border-radius: 25px;
     background-position: center;
     background-size: cover;
@@ -20,11 +20,11 @@
 
     h2 {
         color: $color-primary;
-        font-size: clamp(24px, 4vw, 48px);
+        font-size: clamp(24px, 4vw, 48px); // Responsive
         font-weight: 500;
     }
 }
-
+// Image de fond spécifique à chaque page
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/home_cover.png');
 

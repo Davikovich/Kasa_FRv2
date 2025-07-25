@@ -8,6 +8,8 @@
     cursor: pointer;
     overflow: hidden;
     transition : box-shadow 0.2s ease-in-out;
+
+    // Responsive widths
     @media screen and (max-width: 1230px){
         width: 47%;   
     }

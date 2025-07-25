@@ -1,12 +1,79 @@
-# React + Vite
+# 🏠 Kasa - Application de location immobilière en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projet réalisé dans le cadre du parcours Développeur Front-End OpenClassrooms.  
+Cette application présente les logements de la plateforme Kasa avec une navigation fluide, des composants modulaires, des animations CSS, et une interface responsive.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Lancer le projet en local
 
-## Expanding the ESLint configuration
+### Prérequis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js >= 18.x recommandé
+- Un terminal (VS Code, Bash, etc.)
+
+### Installation
+
+1. Clonez ce dépôt :
+```bash
+git clone https://github.com/Davikovich/Kasa_FRv2.git
+cd Kasa_FRv2
+```
+
+2. Installez les dépendances :
+```bash
+npm install
+```
+
+3. Lancez le serveur de développement :
+```bash
+npm run dev
+```
+
+4. L'application sera accessible à l'adresse :  
+`http://localhost:5173`
+
+---
+
+## 📁 Structure du projet
+
+```
+src/
+├── components/       # Composants réutilisables (Carousel, Rating, etc.)
+├── pages/            # Pages principales (Home, About, Accomodation, NotFound)
+├── data/             # Données JSON locales
+├── sass/           # Fichiers SCSS
+└── App.jsx           # Point d’entrée de l’application
+```
+
+---
+
+## 🔧 Technologies utilisées
+
+- ⚛️ React 18 avec Vite
+- 🎨 Sass (SCSS)
+- 🧭 React Router DOM
+- 🧩 Composants modulaires
+- 💫 Animations CSS
+- ✅ Accessibilité (alt, aria, etc.)
+
+---
+
+## 📚 Fonctionnalités principales
+
+- Navigation entre les pages : Accueil, À propos, Détail du logement
+- Affichage dynamique avec `useParams` et filtrage des données
+- Slider d'images avec navigation circulaire
+- Composants Collapse animés
+- Notation visuelle avec étoiles
+- Gestion des erreurs (page 404)
+
+---
+
+## 👨‍💻 Auteur
+
+David Mendes  
+[Portfolio / LinkedIn si souhaité]
+
+---
+

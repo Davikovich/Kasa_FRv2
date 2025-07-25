@@ -1,7 +1,8 @@
+// Import de la police Google Fonts utilisée dans le projet
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-
-@import 'base/_reset';
-@import 'utils/_variables';
-@import 'utils/mixins';
+// Import des fichiers Sass partagés, dans l’ordre logique : reset → variables → mixins
+@import 'base/_reset'; // Réinitialise les styles par défaut des navigateurs
+@import 'utils/_variables'; // Définit les couleurs principales (thème)
+@import 'utils/mixins'; // Définit les raccourcis réutilisables (flexbox, etc.)

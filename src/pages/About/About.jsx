@@ -1,11 +1,12 @@
 import './about.scss';
 import Header from "../../components/Header/Header";
-import Banner from '../../components/banner/Banner';
+import Banner from '../../components/Banner/Banner';
 import Collapse from '../../components/Collapse/Collapse';
 import Footer from '../../components/Footer/Footer';
 
 export default function About() {
-
+	
+	// Données locales affichées en collapses (titre + contenu)
 	const aboutDatas = [
 		{
 			"id": "1",

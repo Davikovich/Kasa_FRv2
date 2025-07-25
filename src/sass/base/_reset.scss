@@ -1,26 +1,28 @@
+// Réinitialisation globale de tous les éléments HTML
 *, ::before, ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    // font-family: 'Montserrat';
-    // font-style: normal; 
 }
 
+// Supprime les soulignements et hérite de la couleur par défaut
 a{
     text-decoration: none;
     color: inherit;
 }
 
+// Supprime les puces sur les listes
 li{
     list-style: none;
 }
 
+// Mise en page générale du body
 body{
-    max-width: 1440px;
-    padding-top: 40px;
-    margin: 0 auto;
+    max-width: 1440px; // Largeur max pour éviter l'étalement
+    padding-top: 40px; // Marge en haut à cause du Header
+    margin: 0 auto; // Centre le contenu horizontalement
     @media screen and (max-width: 500px) {
-        padding-top: 20px;
+        padding-top: 20px; // Moins d’espace sur mobile
     }
 }
