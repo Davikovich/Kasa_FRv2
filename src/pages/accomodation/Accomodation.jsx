@@ -7,7 +7,7 @@ import Header from "../../components/header/Header";
 import Slider from "../../components/carousel/Carousel"
 import Footer from "../../components/footer/Footer";
 import Collapse from '../../components/collapse/Collapse';
-import NotFound from '../notFound/NotFound';
+import NotFound from '../NotFound/NotFound';
 import Tag from '../../components/tag/Tag';
 import Rating from '../../components/rating/Rating';
 
