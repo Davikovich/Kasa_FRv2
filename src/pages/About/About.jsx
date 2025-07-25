@@ -1,8 +1,8 @@
 import './about.scss';
-import Header from "../../components/header/Header";
+import Header from "../../components/Header/Header";
 import Banner from '../../components/banner/Banner';
-import Collapse from '../../components/collapse/Collapse';
-import Footer from '../../components/footer/Footer';
+import Collapse from '../../components/Collapse/Collapse';
+import Footer from '../../components/Footer/Footer';
 
 export default function About() {
 

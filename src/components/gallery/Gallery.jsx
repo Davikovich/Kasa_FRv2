@@ -1,6 +1,6 @@
 import './gallery.scss'
 import datas from '../../data/logements.json'
-import Card from '../card/Card'
+import Card from '../Card/Card'
 
 export default function Gallery() {
 

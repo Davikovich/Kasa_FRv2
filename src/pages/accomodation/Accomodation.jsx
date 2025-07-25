@@ -3,13 +3,13 @@ import './accomodation.scss'
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
 import datas from '../../data/logements.json'
-import Header from "../../components/header/Header";
-import Slider from "../../components/carousel/Carousel"
-import Footer from "../../components/footer/Footer";
-import Collapse from '../../components/collapse/Collapse';
+import Header from "../../components/Header/Header";
+import Slider from "../../components/Carousel/Carousel"
+import Footer from "../../components/Footer/Footer";
+import Collapse from '../../components/Collapse/Collapse';
 import NotFound from '../NotFound/NotFound';
-import Tag from '../../components/tag/Tag';
-import Rating from '../../components/rating/Rating';
+import Tag from '../../components/Tag/Tag';
+import Rating from '../../components/Rating/Rating';
 
 export default function Accomodation() {
 

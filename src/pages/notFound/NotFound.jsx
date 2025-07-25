@@ -1,5 +1,5 @@
 import './notFound.scss'
-import Header from "../../components/header/Header";
+import Header from "../../components/Header/Header";
 import { Link } from 'react-router-dom';
 
 export default function NotFound() {
