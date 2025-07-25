@@ -14,3 +14,4 @@ export default function Rating({ rating }) {
         </div>
     )
 }
+
